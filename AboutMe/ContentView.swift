@@ -24,18 +24,18 @@ struct ContentView: View {
                 .padding()
                 .frame(width: /*@START_MENU_TOKEN@*/120.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
                 
-                
-                
-                
-                
-                
-                
+            
+        
             Text("- The color blue")
                 .foregroundColor(Color.blue)
-            Text("- Flowers")
             
-                .font(.body)
+            Text("- Flowers")
                 .foregroundColor(Color.pink)
+            Image("Flowers")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 200.0, height: 100.0)
+                .font(.body)
         }
         .padding()
     }
