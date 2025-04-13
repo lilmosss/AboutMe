@@ -36,6 +36,16 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 200.0, height: 100.0)
                 .font(.body)
+            Text("- Studio Ghibli films")
+                .font(.subheadline)
+                .foregroundColor(Color.purple)
+            Image("Ghibli")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300.0, height: 100.0)
+                
+                
+            
         }
         .padding()
     }
