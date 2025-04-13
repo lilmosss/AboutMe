@@ -16,6 +16,14 @@ struct ContentView: View {
                 .padding()
             Text("Some of my favorite things are:")
                 .font(.title3)
+            Text("- Dogs")
+                .foregroundColor(Color.purple)
+            Text("- The color blue")
+                .foregroundColor(Color.blue)
+            Text("- Flowers")
+            
+                .font(.body)
+                .foregroundColor(Color.pink)
         }
         .padding()
     }
