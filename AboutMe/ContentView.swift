@@ -17,7 +17,19 @@ struct ContentView: View {
             Text("Some of my favorite things are:")
                 .font(.title3)
             Text("- Dogs")
+            Image("dog")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
                 .foregroundColor(Color.purple)
+                .padding()
+                .frame(width: /*@START_MENU_TOKEN@*/120.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+                
+                
+                
+                
+                
+                
+                
             Text("- The color blue")
                 .foregroundColor(Color.blue)
             Text("- Flowers")
